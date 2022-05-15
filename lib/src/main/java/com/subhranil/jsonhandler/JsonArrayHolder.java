@@ -101,5 +101,15 @@ public class JsonArrayHolder {
     public JSONArray getJsonArray(int index) {
         return (JSONArray) this.data.get(index);
     }
-
+    public int length(){
+        int c = 0;
+        while (true){
+            try {
+                String s = this.get(c);
+                c++;
+            }catch (IndexOutOfBoundsException e){
+                return c;
+            }
+        }
+    }
 }

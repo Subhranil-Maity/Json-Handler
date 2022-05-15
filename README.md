@@ -17,6 +17,6 @@ repositories {
 Step 2. Add the dependency
 ```groovy
 dependencies {
-    implementation 'com.github.Subhranil-Maity:Json-Handler:v1.0'
+    implementation 'com.github.Subhranil-Maity:Json-Handler:v1.0.1'
 }
 ```
