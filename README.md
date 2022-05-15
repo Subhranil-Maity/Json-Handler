@@ -10,15 +10,13 @@ You can use by Downloading the Jar File from the release section and add it to y
 Step 1. Add the JitPack repository to your build file<br/>
 Add it in your root build.gradle at the end of repositories:
 ```groovy
-allprojects {
-    repositories {
-        maven { url 'https://jitpack.io' }
-    }
+repositories {
+    maven { url 'https://jitpack.io' }
 }
 ```
 Step 2. Add the dependency
 ```groovy
 dependencies {
-    implementation 'com.github.Subhranil-Maity:Json-Handler:Tag'
+    implementation 'com.github.Subhranil-Maity:Json-Handler:v1.0'
 }
 ```
