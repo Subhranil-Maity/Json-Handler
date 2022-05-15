@@ -1,25 +1,10 @@
 plugins {
 
     id 'java-library'
-    id 'maven-publish'
 }
 
 group 'com.subhranil.jsonhandler'
 version '1.0'
-
-publishing {
-    publications {
-        myLibrary(MavenPublication) {
-            from components.java
-        }
-    }
-    repositories {
-        maven {
-            name = 'myRepo'
-            url = layout.buildDirectory.dir("repo")
-        }
-    }
-}
 
 
 repositories {
